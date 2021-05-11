@@ -1,0 +1,25 @@
+body{
+    background-color: #2c191b;
+}
+footer, nav {
+    background-color: #be9360 !important;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1 0 auto;
+}
+.card{
+    text-align: center;
+}
+.actionList{
+    display: flex;
+    justify-content: space-around;
+}
+.actionBtn{
+    border: none;
+    font-size: 10px !important;
+}
